@@ -4,28 +4,28 @@
 using namespace std;
 
 double deg2rad (double deg){
-    double (rad) = deg*(M_PI/180);
-    return rad;
+    double deg2rad = deg*(M_PI/180);
+    return deg2rad;
 }
 
 double rad2deg (double rad){
-    double (deg) = rad*(180/M_PI);
-    return deg;
+    double rad2deg = rad*(180/M_PI);
+    return rad2deg;
 }
 
 double findXComponent(double l1,double l2,double a1,double a2){
-    double (xcomp) = l1*cos(a1)+l2*cos(a2);
-    return xcomp;
+    double findXComponent = l1*cos(a1)+l2*cos(a2);
+    return findXComponent;
 }
 
 double findYComponent(double l1,double l2,double a1,double a2){
-    double (ycomp) = l1*sin(a1)+l2*sin(a2);
-    return ycomp;
+    double findYComponent = l1*sin(a1)+l2*sin(a2);
+    return findYComponent;
 }
 
 double pythagoras(double xcomp, double ycomp){
-    double (length) = sqrt(pow(xcomp, 2)+pow(ycomp, 2));
-    return length;
+    double pythagoras = sqrt(pow(xcomp, 2)+pow(ycomp, 2));
+    return pythagoras;
 }
 
 double showResult(double length, double direction){
